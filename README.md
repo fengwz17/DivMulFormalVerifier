@@ -1,4 +1,4 @@
-# Divider and Multipiler Formal Verifier
+# Divider and Multiplier Formal Verifier
 
 ## btor2Translator
 
