@@ -1,4 +1,4 @@
-#include "btor2parser.h"
+#include "btor2parser/btor2parser.h"
 
 #include <assert.h>
 #include <inttypes.h>
