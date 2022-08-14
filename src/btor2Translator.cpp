@@ -1,5 +1,7 @@
 #include "btor2parser/btor2parser.h"
 
+#include "unroll/unroll.h"
+
 #include <assert.h>
 #include <inttypes.h>
 #include <stdio.h>
@@ -236,6 +238,7 @@ int main(int argc, char **argv)
     if (unroll_btor)
     {
         // do some unroll
+        unroll(reader, unroll_time);
     }
 
     if (translate_btor)

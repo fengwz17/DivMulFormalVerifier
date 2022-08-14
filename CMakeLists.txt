@@ -14,6 +14,6 @@ fetchcontent_makeavailable(btor2tools)
 
 include_directories(deps/btor2tools/src)
 
-aux_source_directory(src SOURCES)
+file(GLOB_RECURSE SOURCES src/*.cpp)
 add_executable(btorTrans ${SOURCES})
 target_link_libraries(btorTrans btor2parser)
